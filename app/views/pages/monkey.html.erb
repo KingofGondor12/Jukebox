@@ -7,3 +7,11 @@
   <br>
 
 <% end %>
+
+<% params[:monkey].each do |key, value| %>
+  <strong>
+    <%= key %>:
+  </strong>
+  <%= value %>
+  <br>
+<% end %>
