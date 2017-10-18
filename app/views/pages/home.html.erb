@@ -1,11 +1,12 @@
-<h1>Welcome Fellow Unicorns</h1>
+<h1>Welcome To Uni-Topia!</h1>
 
-<%= form_for :monkey, url: '/pages/monkey' do |form| %>
+Join  our mailing list!
+<%= form_for Subscriber.new do |form| %>
   <%= form.label :name %>
   <%= form.text_field :name %>
   <br>
-  <%= form.label :location %>
-  <%= form.text_field :location %>
+  <%= form.label :email %>
+  <%= form.text_field :email %>
   <br>
   <%= form.submit %>
 <% end %>
