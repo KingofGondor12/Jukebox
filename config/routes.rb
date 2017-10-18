@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'subscriber/create'
+=======
+  get 'subscribers/create'
+>>>>>>> a2e714be8810e0227a90739c0956acf0678dfe37
 
   root 'pages#home'
 

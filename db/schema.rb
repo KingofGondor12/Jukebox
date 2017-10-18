@@ -10,11 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20171017041022) do
 
   create_table "subscribers", force: :cascade do |t|
     t.string "name"
     t.string "email"
+=======
+ActiveRecord::Schema.define(version: 20171017041018) do
+
+  create_table "subscribers", force: :cascade do |t|
+    t.string "name"
+>>>>>>> a2e714be8810e0227a90739c0956acf0678dfe37
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

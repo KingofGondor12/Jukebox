@@ -1,11 +1,23 @@
 <h1>Welcome To Uni-Topia!</h1>
 
+<<<<<<< HEAD
 Join  our mailing list!
 <%= form_for Subscriber.new do |form| %>
   <%= form.label :name %>
   <%= form.text_field :name %>
   <br>
   <%= form.label :email %>
+=======
+<p><%= notice %></p>
+<h3>Join <%= @subscribers_count %> other subscribers by joining our mailing list:</h3>
+
+
+  <%= form_for Subscriber.new do |form| %>
+  <strong><%= form.label :name %></strong>
+  <%= form.text_field :name %>
+  <br>
+  <strong><%= form.label :email %></strong>
+>>>>>>> a2e714be8810e0227a90739c0956acf0678dfe37
   <%= form.text_field :email %>
   <br>
   <%= form.submit %>
